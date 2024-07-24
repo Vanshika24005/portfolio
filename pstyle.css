@@ -1,0 +1,205 @@
+.menu{
+    width:40%;
+    display:flex;
+    padding: 15px;
+    z-index: index 2px;;
+}
+
+.parts{
+    display: flex;
+    flex-direction:row;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-style: italic;
+}
+
+.item{
+    margin-left: 35%;
+}
+
+.main{
+   margin: 80px;
+}
+
+.container{
+    color:gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container img{
+  float:left;
+  margin-left: 120px;
+  padding:10px;
+  width:30%;
+  border-radius:50%;
+}
+
+.jumbo{
+    font-size: xxx-large;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.container p{
+    font-size: medium;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 15%;
+}
+
+.button{
+    font-size: medium;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 18%;
+    padding:15px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.section{
+    margin-top: 35%;
+    padding:40px;
+}
+
+h1{
+    color: rgb(83, 81, 81);
+}
+
+.images{
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin-top: 20px;
+}
+
+.half img{
+    padding: 5px;
+}
+
+.content{
+    padding: 40px;
+}
+
+.content p{
+    font-size: x-large;
+}
+
+
+.skill{
+    border-style: groove;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.level{
+    background-color: darkgray;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    padding: 8px;
+}
+
+.box{
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(180, 176, 157);
+    padding: 20px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quality{
+    margin-left: 10%;
+}
+
+.dbutton{
+    font-size: medium;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 20px;
+    padding:15px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.reference{
+    margin-top: 20px;
+    border-style: groove;
+    border-radius:10px;
+}
+
+.reference h1{
+    margin-left: 8%;
+}
+
+.reference img{
+    float:left;
+    border-radius: 50%;
+    margin-left: 10%;
+    padding-bottom: 30px;
+}
+
+.reference p{
+    overflow: hidden;
+    position: relative;
+    margin-left: 20%;
+}
+
+.info p{
+    font-size: x-large;
+    color: rgb(70, 61, 61);
+}
+
+.info p i{
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.contact img{
+    width:100%;
+}
+
+form {
+    color: rgb(70, 61, 61);
+}
+
+.fill{
+    width: 95%;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+footer{
+    width: 100%;
+    padding:5px;
+    background-color: rgb(221, 217, 199);
+}
+
+footer p{
+    font-size: 50px;
+    color: rgb(70, 61, 61);
+    text-align: center;
+}
+
+footer p i{
+    transition: transform (2s);
+}
+
+footer p i:hover{
+    transform:scale(1.3);
+}
